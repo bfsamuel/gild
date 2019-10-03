@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color:#000;
+  color: #000;
   font-weight: bold;
   -webkit-transition: all .35s;
   transition: all .35s;
@@ -73,7 +73,7 @@ section h2 {
 }
 
 #mainNav .navbar-brand {
-  color: #fdcc52;
+  color: #fff;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
@@ -98,7 +98,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav>li>a.active {
-  color: #fdcc52 !important;
+  color: #fff !important;
   background-color: transparent;
 }
 
@@ -113,7 +113,7 @@ section h2 {
 
 #mainNav .navbar-nav>li>a:hover,
 #mainNav .navbar-nav>li>a:focus:hover {
-  color: #fdcc52;
+  color: #fff;
 }
 
 @media (min-width: 992px) {
@@ -147,22 +147,22 @@ section h2 {
   }
 
   #mainNav.navbar-shrink .navbar-brand {
-    color: #222222;
+    color: #ffffff;
   }
 
   #mainNav.navbar-shrink .navbar-brand:hover,
   #mainNav.navbar-shrink .navbar-brand:focus {
-    color: #fdcc52;
+    color: #fff;
   }
 
   #mainNav.navbar-shrink .navbar-nav>li>a,
   #mainNav.navbar-shrink .navbar-nav>li>a:focus {
-    color: #222222;
+    color: #ffffff;
   }
 
   #mainNav.navbar-shrink .navbar-nav>li>a:hover,
   #mainNav.navbar-shrink .navbar-nav>li>a:focus:hover {
-    color: #fdcc52;
+    color: #fff;
   }
 }
 
@@ -178,7 +178,7 @@ header.masthead {
 }
 
 header.masthead::after {
-  background: #000;
+  background: #004990;
   opacity: 0.6;
 }
 
@@ -346,11 +346,13 @@ section.cta .overlay {
 
 section.contact {
   text-align: center;
+  color: ;
 }
 
 section.contact h2 {
   margin-top: 0;
   margin-bottom: 25px;
+  color: #fff;
 }
 
 section.contact h2 i {
@@ -425,12 +427,12 @@ footer ul li a.active {
 
 .bg-primary {
   background: #000;
-  background: -webkit-gradient(linear, left top, left bottom, from(#fdcc52), to(#fdc539));
-  background: linear-gradient(#fdcc52, #fdc539);
+  background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#000));
+  background: linear-gradient(#000, #000);
 }
 
 .text-primary {
-  color: #fdcc52;
+  color: #fff;
 }
 
 .no-gutter>[class*='col-'] {
@@ -468,6 +470,7 @@ footer ul li a.active {
   border-color: #000000;
   background-color: #000000;
 }
+
 .btn {
   border-radius: 300px;
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
@@ -479,6 +482,7 @@ footer ul li a.active {
   font-size: 11px;
   padding: 15px 45px;
 }
+
 .text-uppercase {
-text-transform: uppercase;
+  text-transform: uppercase;
 }
